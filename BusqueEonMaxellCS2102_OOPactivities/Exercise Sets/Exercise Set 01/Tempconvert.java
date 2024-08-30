@@ -8,7 +8,6 @@ class Tempconvert {
      
         float celsius = myObj.nextFloat();
         float fahrenheit = (celsius * 9) /5 + 32;
-        System.out.print(String.format("%.2f Celsius", celsius) + " is ");
-        System.out.print(String.format("%.2f Fahrenheit", fahrenheit));
+        System.out.print(String.format("%.2f Celsius", celsius) + " is " + String.format("%.2f Fahrenheit", fahrenheit));
     }
 }
