@@ -17,5 +17,7 @@ public class GettingGreater {
         System.out.println("------------------------------------------");
         System.out.println(char_1st + " : " + (int) char_1st);
         System.out.println(char_2nd + " : " + (int) char_2nd);
+
+        myObj.close();
     }
 }
