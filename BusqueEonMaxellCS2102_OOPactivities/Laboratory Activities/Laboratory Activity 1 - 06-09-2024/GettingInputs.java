@@ -28,6 +28,6 @@ public class GettingInputs {
         System.out.println("Title: " + "\"" + Title + "\"");
         System.out.println("Artist: " + Artist);
 
-        myObj_close();
+        myObj.close();
     }
 }
