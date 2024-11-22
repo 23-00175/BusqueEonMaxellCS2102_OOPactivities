@@ -27,8 +27,9 @@ public class Singer extends Artist {
     }
 
     // displays info for Singer
+    @Override
     public void displayInfo() {
-        System.out.println("Singer's Info:");
+        System.out.println("\n== Singer Info ==");
         super.displayInfo();
         System.out.println("Genre: " + genre);
     }
