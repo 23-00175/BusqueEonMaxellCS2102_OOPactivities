@@ -16,18 +16,19 @@ public class Painter extends Artist {
     }
 
     // getter method for Painter
-    public Type getmedium() {
+    public Type getMedium() {
         return medium;
     }
 
     // setter method for Painter
-    public void setmedium(Type medium) {
+    public void setMedium(Type medium) {
         this.medium = medium;
     }
 
     // displays info for Painter
+    @Override
     public void displayInfo() {
-        System.out.println("Painter's Info:");
+        System.out.println("\n== Painter's Info ==");
         super.displayInfo();
         System.out.println("Medium: " + medium);
     }
